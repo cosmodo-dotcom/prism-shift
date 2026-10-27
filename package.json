@@ -1,0 +1,15 @@
+{
+  "name": "prism-shift",
+  "version": "1.0.0",
+  "description": "Rotate the shield, aim the cannon, capture the shards.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node test/sim.test.js && node test/rules.test.js && node test/spawn.test.js && node test/scene.test.js && node test/state.test.js && node test/platform.test.js",
+    "serve": "npx --yes serve -l 8000",
+    "serve:python": "python3 -m http.server 8000"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
